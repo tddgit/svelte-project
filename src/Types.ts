@@ -1,8 +1,7 @@
-type Contact = {
+export type Contact = {
+    id: number;
     name: string;
     jobTitle: string;
     desc: string;
     imageUrl: string;
 };
-
-export default Contact;
